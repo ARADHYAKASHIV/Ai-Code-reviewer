@@ -21,7 +21,7 @@ function App() {
   }, [])
 
   async function reviewCode() {
-    const response = await axios.post(`${import.meta.env.VITE_API_URL}/ai/get-review`, { code }, {
+    const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/ai/get-review`, { code }, {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -29,8 +29,6 @@ function App() {
     })
     setReview(response.data)
   }
-
-
 
   return (
     <>
@@ -58,16 +56,12 @@ function App() {
         </div>
         <div className="right">
           <Markdown
-
             rehypePlugins={[ rehypeHighlight ]}
-
           >{review}</Markdown>
         </div>
       </main>
     </>
   )
 }
-
-
 
 export default App

@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "VITE_API_URL": "https://backend-sandy-theta-99.vercel.app/"
+      "VITE_BACKEND_URL": "https://backend-sandy-theta-99.vercel.app/"
     }
   },
   "routes": [
