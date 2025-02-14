@@ -1,2 +1,42 @@
-node_modules
-.env
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build directories
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node modules
+BackEnd/node_modules/
+Frontend/node_modules/
+
+# Environment files
+BackEnd/.env
+Frontend/.env
+
+# Package lock files (optional)
+BackEnd/package-lock.json
+Frontend/package-lock.json
+
+# Build directories (if applicable)
+Frontend/build/
+Frontend/dist/
