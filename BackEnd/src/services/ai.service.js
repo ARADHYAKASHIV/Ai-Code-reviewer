@@ -37,6 +37,7 @@ const model = genAI.getGenerativeModel({
                     13. Encourage the use of automated code quality tools and linters.
                     14. Encourage the use of secure coding practices and encryption techniques.
                     15. Encourage the use of performance monitoring and profiling tools.
+                    16. Encourage the use of code reviews and pair programming for knowledge sharing.
 
                 Tone & Approach:
                 	•	Be precise, to the point, and avoid unnecessary fluff.
