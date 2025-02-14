@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "VITE_API_URL": "https://back-dod5wcn5e-aradhya-kashivs-projects.vercel.app/"
+      "VITE_API_URL": "https://backend-sandy-theta-99.vercel.app/"
     }
   },
   "routes": [
@@ -10,5 +10,6 @@
       "dest": "/",
       "status": 200
     }
-  ]
+  ],
+  "public": true
 }
