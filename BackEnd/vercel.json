@@ -1,0 +1,21 @@
+{
+  "build": {
+    "env": {
+      "GOOGLE_GEMINI_KEY": "AIzaSyCAe8Hgb7bgpPT9AbauhgI4Dnprwyl_TQw"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/",
+      "status": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization"
+      }
+    }
+  ],
+  "outputDirectory": ".",
+  "public": true
+}
